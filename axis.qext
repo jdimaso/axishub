@@ -1,0 +1,13 @@
+{
+	"type": "mashup",
+	"name": "Axis",
+	"version": "0.9.3",
+	"description": "Axis Hub",
+	"preview": "images/preview.png",
+	"author": "gdimaso@axisgroup.com",
+	"keywords": "qlik-sense, mashup",
+	"license": "",
+	"dependencies": {
+		"qlik-sense": ">=2.1.1"
+	}
+}

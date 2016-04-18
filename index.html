@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Axis Hub</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+        <link type="text/css" rel="stylesheet" href="assets/css/jquery.dropdown.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <!-- Scripts -->
+            
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+            <script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/main.js"></script>
+            <script type="text/javascript" src="assets/js/jquery.dropdown.js"></script>
+            <script type="text/javascript" src="assets/js/qsocks.bundle.js"></script>
+            <script type="text/javascript" src="assets/js/mine.js"></script>
+            <!--<script src="assets/js/require.js"></script>-->
+            <!--<script src="assets/js/qrscon.js"></script>-->
+            <!--<script type="text/javascript" src="assets/js/serialize.bundle.js"></script>-->
+            <!--<script src="assets/js/backuprestore.js"></script>-->
+            
+	</head>
+	<body>
+<div class="qv-hub-container"></div>
+	<div class="qv-popover-container" qva-outside-ignore-for="allOutside"></div>
+	<div id="qv-init-ui-blocker"><!-- blocker --></div>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="#">Axis Hub</a></h1>
+						<nav class="links">
+							<ul>
+								<li><a href="#">Help</a></li>
+								<li><a href="#">About</a></li>
+								<li><a q-translation=Hub.SignOut href="Logout" onmouseover="this.innerHTML='Logout of Portal';" onmouseout="this.innerHTML='Logged in as Administrator';">Logged in as Administrator</a></li>                         
+								<!--<li><a href="#">Sales</a></li>
+								<li><a href="#">Operations</a></li>-->
+							</ul>
+						</nav>
+						<nav class="main">
+                            <ul>
+                                <li class="search">
+									<a class="fa-search" href="#search">Search</a>
+									<form id="search" method="get" action="#">
+										<input type="text" name="query" placeholder="Search" />
+									</form>
+								</li>
+								<li class="menu">
+									<a class="fa-bars" href="#menu">Menu</a>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<section id="menu">
+
+						<!-- Search -->
+							<section>
+								<form class="search" method="get" action="#">
+									<input type="text" name="query" placeholder="Search" />
+								</form>
+							</section>
+
+						<!-- Links -->
+							<section>
+								<ul class="links">
+									<li>
+										<a href="#">
+                                            <h3>My Work</h3>
+											<p>View your Apps</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Everyone</h3>
+											<p>View apps published for Everyone</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Monitoring Apps</h3>
+											<p>View the Governance Dashboard and License Monitor</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Sales</h3>
+											<p>View Sales Apps including Month End P&L</p>
+										</a>
+									</li>
+								</ul>
+							</section>
+
+						<!-- Actions -->
+							<!--<section>
+								<ul class="actions vertical">
+									<li><a href="#" class="button big fit">Log In</a></li>
+								</ul>
+							</section>-->
+
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+                        <!-- Action Bar -->
+                        <article class="actionbar">
+                            <header>
+                                <div class="title"> 
+                                    <h2><div>My Work</div></h2>
+                                </div>
+                                <div class="sort">
+                                    <a href="#" data-jq-dropdown="#jq-dropdown-2">Create New App</a> &nbsp;&nbsp;
+                                    <img src="images/sort.png" width="15px" height="15px" id="imgClickAndChange" onclick="changeImage()"  />
+                                        <div id="jq-dropdown-1" class="jq-dropdown jq-dropdown-tip jq-dropdown-relative">
+                                            <ul class="jq-dropdown-menu">
+                                                <li><a href="#1">Alphabetically</a></li>
+                                                <li><a href="#2">Date Published</a></li>
+                                            </ul>
+                                        </div>
+                                        <div id="jq-dropdown-2" class="jq-dropdown jq-dropdown-tip jq-dropdown-relative">
+                                            <ul class="jq-dropdown-menu">
+                                                <li><a href="#1">Generic</a></li>
+                                                <li><a href="#2">Sales</a></li>
+                                                <li><a href="#3">Finance</a></li>
+                                            </ul>
+                                        </div>
+                                    &nbsp; <a href="#" data-jq-dropdown="#jq-dropdown-1">Sort By</a>
+                                    </div>
+                            </header>
+               			</article>
+                          
+
+
+						<!-- Pagination -->
+							<!--<ul class="actions pagination">
+								<li><a href="" class="disabled button big previous">Previous Page</a></li>
+								<li><a href="#" class="button big next">Next Page</a></li>
+							</ul>-->
+
+					</div>
+                    </section>
+
+				<!-- Sidebar -->
+					<section id="sidebar">
+						<!-- Posts List -->
+							<section>
+                                <h2>Streams</h2>
+								<ul class="posts" id="streams">
+									<li>
+										<article>
+											<header>
+												<h3><a href="#">My Work</a></h3>
+												<time class="published" datetime="2015-10-20">Feb 2, 2016 </time>
+											</header>
+											<a href="#" class="image"><img src="images/Qlik_default_qlikcircles.png" alt="" /></a>
+										</article>
+									</li>
+								</ul>
+							</section>
+
+						<!-- About -->
+							<section class="blurb">
+								<h2>Additional Links</h2>
+								<p><a target="_blank" href="http://www.axisgroup.com">Axis Group Website</a></p>
+								<ul class="actions">
+									<li><a href="mailto:clientsupport@axisgroup.com" class="button">Contact Support</a></li>
+								</ul>
+							</section>
+
+						<!-- Footer -->
+							<section id="footer">
+								<!--<ul class="icons">
+									<li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="fa-rss"><span class="label">RSS</span></a></li>
+									<li><a href="#" class="fa-envelope"><span class="label">Email</span></a></li>
+								</ul>-->
+								<p class="copyright">&copy; Axis Group <a href="http://html5up.net">www.axisgroup.com</a></p>
+							</section>
+
+					</section>
+
+			</div>
+
+		
+	</body>
+</html>
